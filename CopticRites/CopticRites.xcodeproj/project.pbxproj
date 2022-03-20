@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048908F52721ED18000B64EF /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048908F42721ED18000B64EF /* CategoryItem.swift */; };
+		048908F72721ED91000B64EF /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048908F62721ED91000B64EF /* CategoryRow.swift */; };
+		048908F92721EEA5000B64EF /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048908F82721EEA5000B64EF /* CategoryHome.swift */; };
+		048908FC2721EF8D000B64EF /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048908FB2721EF8D000B64EF /* PageControl.swift */; };
+		048908FE2721EFBC000B64EF /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048908FD2721EFBC000B64EF /* PageView.swift */; };
+		048909002721EFF4000B64EF /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048908FF2721EFF4000B64EF /* FeatureCard.swift */; };
+		048909022721F058000B64EF /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048909012721F058000B64EF /* PageViewController.swift */; };
+		0489090427220A5A000B64EF /* CategoryItemCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489090327220A57000B64EF /* CategoryItemCircle.swift */; };
+		0489090627220B9B000B64EF /* CategoryRowCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489090527220B9B000B64EF /* CategoryRowCircle.swift */; };
+		0489090827220D33000B64EF /* CategoryItemRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489090727220D33000B64EF /* CategoryItemRectangle.swift */; };
+		0489090A27220DB5000B64EF /* CategoryRowRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489090927220DB5000B64EF /* CategoryRowRectangle.swift */; };
+		0489090C27221617000B64EF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489090B27221616000B64EF /* Profile.swift */; };
+		0489090F272216DD000B64EF /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489090E272216DD000B64EF /* ProfileSummary.swift */; };
+		0489091127221758000B64EF /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489091027221758000B64EF /* ProfileEditor.swift */; };
+		0489091327221A6E000B64EF /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489091227221A6E000B64EF /* ProfileHost.swift */; };
+		04A4D992270BB3BF0063CCEE /* BookmarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4D991270BB3BF0063CCEE /* BookmarkButton.swift */; };
+		04A4D994270BB4190063CCEE /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4D993270BB4190063CCEE /* VideoView.swift */; };
+		04A4D99A270BB4860063CCEE /* RiteRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4D999270BB4860063CCEE /* RiteRows.swift */; };
+		04A4D99C270BB5CB0063CCEE /* RiteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4D99B270BB5CB0063CCEE /* RiteList.swift */; };
+		04A4D99E270BB7680063CCEE /* RiteDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4D99D270BB7680063CCEE /* RiteDetail.swift */; };
+		04B5ACCC270B9AFB006E5FBE /* CopticRitesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5ACBC270B9AFA006E5FBE /* CopticRitesApp.swift */; };
+		04B5ACCD270B9AFB006E5FBE /* CopticRitesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5ACBC270B9AFA006E5FBE /* CopticRitesApp.swift */; };
+		04B5ACCE270B9AFB006E5FBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5ACBD270B9AFA006E5FBE /* ContentView.swift */; };
+		04B5ACCF270B9AFB006E5FBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5ACBD270B9AFA006E5FBE /* ContentView.swift */; };
+		04B5ACD0270B9AFB006E5FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B5ACBE270B9AFB006E5FBE /* Assets.xcassets */; };
+		04B5ACD1270B9AFB006E5FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B5ACBE270B9AFB006E5FBE /* Assets.xcassets */; };
+		04B5ACE1270BAB92006E5FBE /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5ACE0270BAB92006E5FBE /* ModelData.swift */; };
+		04B5ACE3270BABE8006E5FBE /* Rite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5ACE2270BABE8006E5FBE /* Rite.swift */; };
+		04B5ACE8270BB087006E5FBE /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5ACE7270BB087006E5FBE /* CircleImage.swift */; };
+		04BD41AC271E1CF80004A2E3 /* RItes copy.json in Resources */ = {isa = PBXBuildFile; fileRef = 04BD41AB271E1CF80004A2E3 /* RItes copy.json */; };
+		04BD41AE271E1D290004A2E3 /* Rites.json in Resources */ = {isa = PBXBuildFile; fileRef = 04BD41AD271E1D290004A2E3 /* Rites.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		048908F42721ED18000B64EF /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		048908F62721ED91000B64EF /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		048908F82721EEA5000B64EF /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		048908FB2721EF8D000B64EF /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		048908FD2721EFBC000B64EF /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		048908FF2721EFF4000B64EF /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		048909012721F058000B64EF /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		0489090327220A57000B64EF /* CategoryItemCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemCircle.swift; sourceTree = "<group>"; };
+		0489090527220B9B000B64EF /* CategoryRowCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRowCircle.swift; sourceTree = "<group>"; };
+		0489090727220D33000B64EF /* CategoryItemRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemRectangle.swift; sourceTree = "<group>"; };
+		0489090927220DB5000B64EF /* CategoryRowRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRowRectangle.swift; sourceTree = "<group>"; };
+		0489090B27221616000B64EF /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		0489090E272216DD000B64EF /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		0489091027221758000B64EF /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		0489091227221A6E000B64EF /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		04A4D991270BB3BF0063CCEE /* BookmarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkButton.swift; sourceTree = "<group>"; };
+		04A4D993270BB4190063CCEE /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		04A4D999270BB4860063CCEE /* RiteRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiteRows.swift; sourceTree = "<group>"; };
+		04A4D99B270BB5CB0063CCEE /* RiteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiteList.swift; sourceTree = "<group>"; };
+		04A4D99D270BB7680063CCEE /* RiteDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiteDetail.swift; sourceTree = "<group>"; };
+		04B5ACBC270B9AFA006E5FBE /* CopticRitesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopticRitesApp.swift; sourceTree = "<group>"; };
+		04B5ACBD270B9AFA006E5FBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04B5ACBE270B9AFB006E5FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B5ACC3270B9AFB006E5FBE /* CopticRites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopticRites.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B5ACC9270B9AFB006E5FBE /* CopticRites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopticRites.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B5ACCB270B9AFB006E5FBE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		04B5ACE0270BAB92006E5FBE /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		04B5ACE2270BABE8006E5FBE /* Rite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rite.swift; sourceTree = "<group>"; };
+		04B5ACE7270BB087006E5FBE /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		04BD41AB271E1CF80004A2E3 /* RItes copy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "RItes copy.json"; path = "Shared/RItes copy.json"; sourceTree = SOURCE_ROOT; };
+		04BD41AD271E1D290004A2E3 /* Rites.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Rites.json; path = Shared/Rites.json; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B5ACC0270B9AFB006E5FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B5ACC6270B9AFB006E5FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048908F32721EC97000B64EF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				048908F42721ED18000B64EF /* CategoryItem.swift */,
+				048908F62721ED91000B64EF /* CategoryRow.swift */,
+				048908F82721EEA5000B64EF /* CategoryHome.swift */,
+				0489090327220A57000B64EF /* CategoryItemCircle.swift */,
+				0489090527220B9B000B64EF /* CategoryRowCircle.swift */,
+				0489090727220D33000B64EF /* CategoryItemRectangle.swift */,
+				0489090927220DB5000B64EF /* CategoryRowRectangle.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		048908FA2721EF71000B64EF /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				048908FB2721EF8D000B64EF /* PageControl.swift */,
+				048908FD2721EFBC000B64EF /* PageView.swift */,
+				048908FF2721EFF4000B64EF /* FeatureCard.swift */,
+				048909012721F058000B64EF /* PageViewController.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
+		0489090D272216A5000B64EF /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				0489090E272216DD000B64EF /* ProfileSummary.swift */,
+				0489091027221758000B64EF /* ProfileEditor.swift */,
+				0489091227221A6E000B64EF /* ProfileHost.swift */,
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
+		04A4D995270BB44B0063CCEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0489090D272216A5000B64EF /* Profiles */,
+				048908FA2721EF71000B64EF /* PageView */,
+				048908F32721EC97000B64EF /* Categories */,
+				04A4D996270BB45E0063CCEE /* Rites */,
+				04B5ACE6270BB071006E5FBE /* Helpers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04A4D996270BB45E0063CCEE /* Rites */ = {
+			isa = PBXGroup;
+			children = (
+				04A4D999270BB4860063CCEE /* RiteRows.swift */,
+				04A4D99B270BB5CB0063CCEE /* RiteList.swift */,
+				04A4D99D270BB7680063CCEE /* RiteDetail.swift */,
+			);
+			path = Rites;
+			sourceTree = "<group>";
+		};
+		04B5ACB6270B9AF9006E5FBE = {
+			isa = PBXGroup;
+			children = (
+				04B5ACBB270B9AFA006E5FBE /* Shared */,
+				04B5ACCA270B9AFB006E5FBE /* macOS */,
+				04B5ACC4270B9AFB006E5FBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B5ACBB270B9AFA006E5FBE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				04B5ACDA270B9B85006E5FBE /* Resources */,
+				04B5ACDF270BAB6E006E5FBE /* Model */,
+				04A4D995270BB44B0063CCEE /* Views */,
+				04B5ACBC270B9AFA006E5FBE /* CopticRitesApp.swift */,
+				04B5ACBD270B9AFA006E5FBE /* ContentView.swift */,
+				04B5ACBE270B9AFB006E5FBE /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		04B5ACC4270B9AFB006E5FBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B5ACC3270B9AFB006E5FBE /* CopticRites.app */,
+				04B5ACC9270B9AFB006E5FBE /* CopticRites.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B5ACCA270B9AFB006E5FBE /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				04B5ACCB270B9AFB006E5FBE /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		04B5ACDA270B9B85006E5FBE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04BD41AB271E1CF80004A2E3 /* RItes copy.json */,
+				04BD41AD271E1D290004A2E3 /* Rites.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04B5ACDF270BAB6E006E5FBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04B5ACE0270BAB92006E5FBE /* ModelData.swift */,
+				04B5ACE2270BABE8006E5FBE /* Rite.swift */,
+				0489090B27221616000B64EF /* Profile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04B5ACE6270BB071006E5FBE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				04B5ACE7270BB087006E5FBE /* CircleImage.swift */,
+				04A4D991270BB3BF0063CCEE /* BookmarkButton.swift */,
+				04A4D993270BB4190063CCEE /* VideoView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B5ACC2270B9AFB006E5FBE /* CopticRites (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B5ACD4270B9AFB006E5FBE /* Build configuration list for PBXNativeTarget "CopticRites (iOS)" */;
+			buildPhases = (
+				04B5ACBF270B9AFB006E5FBE /* Sources */,
+				04B5ACC0270B9AFB006E5FBE /* Frameworks */,
+				04B5ACC1270B9AFB006E5FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CopticRites (iOS)";
+			productName = "CopticRites (iOS)";
+			productReference = 04B5ACC3270B9AFB006E5FBE /* CopticRites.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B5ACC8270B9AFB006E5FBE /* CopticRites (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B5ACD7270B9AFB006E5FBE /* Build configuration list for PBXNativeTarget "CopticRites (macOS)" */;
+			buildPhases = (
+				04B5ACC5270B9AFB006E5FBE /* Sources */,
+				04B5ACC6270B9AFB006E5FBE /* Frameworks */,
+				04B5ACC7270B9AFB006E5FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CopticRites (macOS)";
+			productName = "CopticRites (macOS)";
+			productReference = 04B5ACC9270B9AFB006E5FBE /* CopticRites.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B5ACB7270B9AF9006E5FBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					04B5ACC2270B9AFB006E5FBE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					04B5ACC8270B9AFB006E5FBE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 04B5ACBA270B9AF9006E5FBE /* Build configuration list for PBXProject "CopticRites" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B5ACB6270B9AF9006E5FBE;
+			productRefGroup = 04B5ACC4270B9AFB006E5FBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B5ACC2270B9AFB006E5FBE /* CopticRites (iOS) */,
+				04B5ACC8270B9AFB006E5FBE /* CopticRites (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B5ACC1270B9AFB006E5FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BD41AE271E1D290004A2E3 /* Rites.json in Resources */,
+				04BD41AC271E1CF80004A2E3 /* RItes copy.json in Resources */,
+				04B5ACD0270B9AFB006E5FBE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B5ACC7270B9AFB006E5FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B5ACD1270B9AFB006E5FBE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B5ACBF270B9AFB006E5FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048908F92721EEA5000B64EF /* CategoryHome.swift in Sources */,
+				04A4D99A270BB4860063CCEE /* RiteRows.swift in Sources */,
+				0489090427220A5A000B64EF /* CategoryItemCircle.swift in Sources */,
+				048909002721EFF4000B64EF /* FeatureCard.swift in Sources */,
+				04B5ACCE270B9AFB006E5FBE /* ContentView.swift in Sources */,
+				04A4D99E270BB7680063CCEE /* RiteDetail.swift in Sources */,
+				04A4D994270BB4190063CCEE /* VideoView.swift in Sources */,
+				04B5ACE1270BAB92006E5FBE /* ModelData.swift in Sources */,
+				04B5ACE3270BABE8006E5FBE /* Rite.swift in Sources */,
+				048909022721F058000B64EF /* PageViewController.swift in Sources */,
+				04B5ACCC270B9AFB006E5FBE /* CopticRitesApp.swift in Sources */,
+				0489090F272216DD000B64EF /* ProfileSummary.swift in Sources */,
+				048908FC2721EF8D000B64EF /* PageControl.swift in Sources */,
+				0489091327221A6E000B64EF /* ProfileHost.swift in Sources */,
+				0489090827220D33000B64EF /* CategoryItemRectangle.swift in Sources */,
+				0489091127221758000B64EF /* ProfileEditor.swift in Sources */,
+				04A4D99C270BB5CB0063CCEE /* RiteList.swift in Sources */,
+				0489090627220B9B000B64EF /* CategoryRowCircle.swift in Sources */,
+				048908FE2721EFBC000B64EF /* PageView.swift in Sources */,
+				04B5ACE8270BB087006E5FBE /* CircleImage.swift in Sources */,
+				0489090A27220DB5000B64EF /* CategoryRowRectangle.swift in Sources */,
+				048908F52721ED18000B64EF /* CategoryItem.swift in Sources */,
+				0489090C27221617000B64EF /* Profile.swift in Sources */,
+				048908F72721ED91000B64EF /* CategoryRow.swift in Sources */,
+				04A4D992270BB3BF0063CCEE /* BookmarkButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B5ACC5270B9AFB006E5FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B5ACCF270B9AFB006E5FBE /* ContentView.swift in Sources */,
+				04B5ACCD270B9AFB006E5FBE /* CopticRitesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04B5ACD2270B9AFB006E5FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04B5ACD3270B9AFB006E5FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		04B5ACD5270B9AFB006E5FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7Z4SYFDKV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndrewZ.CopticRites;
+				PRODUCT_NAME = CopticRites;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04B5ACD6270B9AFB006E5FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7Z4SYFDKV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndrewZ.CopticRites;
+				PRODUCT_NAME = CopticRites;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B5ACD8270B9AFB006E5FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7Z4SYFDKV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndrewZ.CopticRites;
+				PRODUCT_NAME = CopticRites;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04B5ACD9270B9AFB006E5FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7Z4SYFDKV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AndrewZ.CopticRites;
+				PRODUCT_NAME = CopticRites;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B5ACBA270B9AF9006E5FBE /* Build configuration list for PBXProject "CopticRites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B5ACD2270B9AFB006E5FBE /* Debug */,
+				04B5ACD3270B9AFB006E5FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B5ACD4270B9AFB006E5FBE /* Build configuration list for PBXNativeTarget "CopticRites (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B5ACD5270B9AFB006E5FBE /* Debug */,
+				04B5ACD6270B9AFB006E5FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B5ACD7270B9AFB006E5FBE /* Build configuration list for PBXNativeTarget "CopticRites (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B5ACD8270B9AFB006E5FBE /* Debug */,
+				04B5ACD9270B9AFB006E5FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B5ACB7270B9AF9006E5FBE /* Project object */;
+}
